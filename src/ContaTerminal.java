@@ -27,9 +27,9 @@ public class ContaTerminal {
         double saldo = scanner.nextInt();
 
         //imprimindo os dados obtidos pelo usuário
-        System.out.println("Olá" + nomeCliente + "seja bem-vindo(a),");
-        System.out.println("sua agência é a " + agência + "e seu número " + numeroAgencia + " para conseguir acessar sua conta");
-        System.out.println("Seu saldo disponível é de " + saldo + "reais");
+        System.out.println("Olá " + nomeCliente + " seja bem-vindo(a),");
+        System.out.println("sua agência é a " + agência + " e seu número é o " + numeroAgencia + " para conseguir acessar sua conta");
+        System.out.println("Seu saldo disponível é de " + saldo + " reais");
 
       
     }
