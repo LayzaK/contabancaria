@@ -8,15 +8,25 @@ public class ContaTerminal {
 
         //Desafio da DIO - Conta bancária via terminal
 
-        //Criando as variáveis
+        //Criando as variáveis e utilizando o Scanner para fazer uma interação com o usuário
 
-        int numero = Integer.valueOf(args[0]);
-        //armazena o número da agência do cliente
-        String nomeCliente = args[1];
-        //armazena o nome do cliente
-        String agencia = args[2];
-        //armazena o nome da agência do cliente
-        double saldo = Integer.valueOf(args[3]);
-        //armazena o saldo que o cliente possui
+        System.out.println("Digite seu nome: ");
+        String nomeCliente = scanner.next();
+
+        System.out.println("Digite o número da sua agência: ");
+        int numeroAgencia = scanner.nextInt();
+
+        System.out.println("Digite o nome da sua agência: ");
+        var agência = scanner.next();
+
+        System.out.println("Digite o seu saldo: ");
+        double saldo = scanner.nextInt();
+
+        //imprimindo os dados obtidos pelo usuário
+        System.out.println("Olá" + nomeCliente + "seja bem-vindo(a),");
+        System.out.println("sua agência é a " + agência + "e seu número " + numeroAgencia + " para conseguir acessar sua conta");
+        System.out.println("Seu saldo disponível é de " + saldo + "reais");
+
+      
     }
 }
